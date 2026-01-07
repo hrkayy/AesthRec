@@ -13,4 +13,3 @@ This repository includes a **backend API**, **frontend UI**, and **example test 
 ✔ Frontend interface for interacting with the model  
 ✔ Test inputs to validate functionality
 
-
