@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#drop-zone {
+  border: 2px dashed white;
+  padding: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background: rgba(255,255,255,0.1);
+}
+
+#preview {
+  max-width: 100%;
+  margin: 15px 0;
+  border-radius: 12px;
+  display: none;
+}
+
+.result-card {
+  background: rgba(255,255,255,0.15);
+  border-radius: 12px;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.progress {
+  background: rgba(255,255,255,0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #00ffd5;
+}
